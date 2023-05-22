@@ -1,0 +1,71 @@
+.website-logo {
+  margin-top: 15px;
+  height: 35px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.mobile-container {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-container {
+    display: none;
+  }
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.home-icon {
+  font-size: 30px;
+  margin-left: 10px;
+  color: #ffffffff;
+}
+
+.desktop-icons-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.desktop-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-container {
+    display: none;
+  }
+}
+
+.icon {
+  font-size: 20px;
+  margin: 10px 20px 0 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.logoutButton {
+  background-color: #4f46e5;
+  margin: 25px 20px 0 0;
+  width: 120px;
+  height: 27px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0;
+}
+
+.desktop-image {
+  margin: 15px 0 10px 15px;
+  height: 40px;
+}
